@@ -9,7 +9,7 @@ probing.
 
 Advantages:
   - Predictable performance. Doesn't use the allocator unless load factor
-    grows beyond 50%. Linear probing ensures cash efficency.
+    grows beyond 50%. Linear probing ensures cash efficiency.
   - Deletes items by rearranging items and marking slots as empty instead of
     marking items as deleted. This is keeps performance high when there
     is a high rate of churn (many paired inserts and deletes) since otherwise
